@@ -7015,23 +7015,18 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
     margin-bottom: 20px;
   }
 }
-.team-section.three div[class*=col]:nth-of-type(9n + 1) .team-item .team-thumb {
-  background-color: #D7A5F2;
-}
+
+
 .team-section.three div[class*=col]:nth-of-type(9n + 1) .team-item .team-thumb:hover {
   -webkit-box-shadow: 0 0 20px #D7A5F2;
           box-shadow: 0 0 20px #D7A5F2;
 }
-.team-section.three div[class*=col]:nth-of-type(9n + 2) .team-item .team-thumb {
-  background-color: #91BDFC;
-}
+
 .team-section.three div[class*=col]:nth-of-type(9n + 2) .team-item .team-thumb:hover {
   -webkit-box-shadow: 0 0 20px #91BDFC;
           box-shadow: 0 0 20px #91BDFC;
 }
-.team-section.three div[class*=col]:nth-of-type(9n + 3) .team-item .team-thumb {
-  background-color: #E5D36B;
-}
+
 .team-section.three div[class*=col]:nth-of-type(9n + 3) .team-item .team-thumb:hover {
   -webkit-box-shadow: 0 0 20px #E5D36B;
           box-shadow: 0 0 20px #E5D36B;
@@ -7290,7 +7285,7 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
 }
 
 .team-thumb {
-  background-color: #F9AC6C;
+  
   border-radius: 10px;
   padding-top: 60px;
   -webkit-transition: all 0.5s;
