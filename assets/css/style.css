@@ -7678,7 +7678,7 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
   border: 1px solid #ECF2FF;
   background-color: #fff;
   position: relative;
-  border-radius: 6px;
+  border-radius: 23px;
   z-index: 2;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
