@@ -123,6 +123,30 @@
     [ ## reset ]
 */
 
+
+.mobile {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .mobile {
+      display: block;
+    }
+  }
+  
+  /* media for articles */
+  
+  .web {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .web {
+      display: none;
+    }
+  }
+
+
 html {
     font-size: 100%;
     scroll-behavior: smooth;
