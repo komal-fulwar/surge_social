@@ -12491,12 +12491,12 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
 
 .filter-btn-group.two {
     margin: -15px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 991px) {
     .filter-btn-group.two {
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
 }
 
@@ -14460,6 +14460,7 @@ div[class*=col]:nth-of-type(4n + 4) .process-item .process-icon-area .process-ic
     -webkit-box-shadow: 0 15px 20px rgba(50, 73, 179, 0.08);
     box-shadow: 0 15px 20px rgba(50, 73, 179, 0.08);
     position: relative;
+    rotate: -90deg;
 }
 
 .faq-wrapper.two .faq-item .right-icon::after {
