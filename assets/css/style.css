@@ -8517,8 +8517,8 @@ div[class*=col]:nth-of-type(3n+3) .footer-contact-list .link-title {
 }
 
 .team-thumb:hover {
-    -webkit-box-shadow: 0 0 20px #F9AC6C;
-    box-shadow: 0 0 20px #F9AC6C;
+    -webkit-box-shadow: 0 0 20px #00e1ac;
+    box-shadow: 0 0 20px #00e1ac;
 }
 
 .team-thumb:hover .team-social-area {
