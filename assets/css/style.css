@@ -16227,7 +16227,6 @@ div[class*=col]:nth-of-type(3n+3) .process-item.two::after {
 
 .media-thumb img {
     width: 100%;
-    border-radius: 20px;
 }
 
 .media-thumb img.shadow {
