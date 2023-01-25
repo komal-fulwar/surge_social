@@ -9362,6 +9362,42 @@ div[class*=col]:nth-of-type(3n+3) .footer-contact-list .link-title {
     [ ### brand block ]
 */
 
+.about-us__item {
+    flex: 0 1 50%;
+    padding: 17px 0;
+    text-align: center;
+}
+
+.about-us__list {
+    padding: 45px 15px 20px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin: -15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-us__list {
+        flex-wrap: wrap;
+    }
+}
+
+.about-us__item--value {
+    padding-top: 20px;
+    display: block;
+    font-weight: 600;
+    font-size: 1.625rem;
+    color: #01132f;
+}
+
+.about-us__item--name {
+    padding-top: 3px;
+    display: block;
+    font-weight: 500;
+    font-size: .875rem;
+    color: #788393;
+}
+
 .brand-section.oh {
     overflow: hidden;
 }
