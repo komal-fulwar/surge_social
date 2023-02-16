@@ -5626,8 +5626,11 @@ option {
 }
 
 .banner-section.two {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0)), to(rgba(157, 186, 254, 0.2)));
-    background: rgb(231, 230, 236);
+    background: hsla(250, 14%, 91%, 1);
+    background: linear-gradient(270deg, hsla(250, 14%, 91%, 1) 90%, hsla(0, 0%, 100%, 1) 100%);
+    background: -moz-linear-gradient(270deg, hsla(250, 14%, 91%, 1) 90%, hsla(0, 0%, 100%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(250, 14%, 91%, 1) 90%, hsla(0, 0%, 100%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E7E6EC", endColorstr="#FFFFFF", GradientType=1);
     padding-top: 175px;
     padding-bottom: 120px;
 }
