@@ -3,16 +3,18 @@ function sendMail() {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
         message: document.getElementById("message").value,
+        phone: document.getElementById("phone").value,
     };
 
-    const serviceID = "service_huvqpb8";
-    const templateID = "template_5su63cj";
+    const serviceID = "service_j3khn1q";
+    const templateID = "template_vvx200k";
 
     emailjs.send(serviceID, templateID, params)
         .then(res => {
             document.getElementById("name").value = "";
             document.getElementById("email").value = "";
             document.getElementById("message").value = "";
+            document.getElementById("phone").value = "";
             console.log(res);
             alert("Your message sent successfully!!")
 
